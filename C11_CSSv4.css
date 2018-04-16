@@ -1,0 +1,62 @@
+/*
+* Madison Klapinsky 
+* 4/16/18
+* Classwork 11-CSS
+*/
+
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Put body attributes here */
+
+body { 
+background-color: #48C9B0;
+font-family: "Times New Roman", Times, serif;
+font-size: 12pt; 
+color: black;
+}
+
+h1 {
+text-decoration: underline;
+font-size: 24pt;
+text-align: center; 
+}
+
+h1, h3 {
+background-color: #C948A8; 
+color: white;
+}
+
+img {
+float: left;
+}
+
+p {
+background-color: white;
+color: rgb(201, 72, 168);
+text-indent: 10px; 
+}
+
+a:link {
+color: #8E44AD; 
+text-decoration: none; 
+}
+
+a:visited {
+color: #4A235A; 
+text-decoration: overline; 
+}
+
+a:hover, a:focus {
+background-color: #F1C40F;
+color: #48C9B0; 
+}
+
+a:active {
+color: #E74C3C;
+}
+
